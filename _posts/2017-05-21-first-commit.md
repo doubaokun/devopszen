@@ -5,9 +5,9 @@ title: First commit
 mathjax: false
 featured: true
 comments: false
-headline: Making blogging easier for masses
+headline: First commit
 categories: 
-  - webdevelopment
+  - devops
 tags: devops
 ---
 

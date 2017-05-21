@@ -6,7 +6,7 @@ tags: [Devops]
 
 ---
 
-About
+About DevOps Zen
 
 ```
 Automated is better than manual.

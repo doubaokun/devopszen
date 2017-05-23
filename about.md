@@ -8,6 +8,9 @@ tags: [Devops]
 
 About DevOps Zen
 
+
+Contact us: <a href="mailto:hello@devopszen.com?subject=Hello">hello@devopszen.com</a>
+
 ```
 Automated is better than manual.
  

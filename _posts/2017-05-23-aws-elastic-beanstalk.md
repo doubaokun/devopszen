@@ -21,7 +21,9 @@ For short, it provides a managed environment and the essential components for yo
 
 If you have the scaling issues, then [Elastic Beanstalk](https://www.devopszen.com/aws-elastic-beanstalk) can be a quick solution.
 
-## The cost of moving to Elastic Beanstalk
+## The cost of moving to AWS Elastic Beanstalk
+
+Before taking the action, have to estimate the cost and gain of using AWS EB.
 
 ### Have to integration with the AWS EB SDK:
 
@@ -101,7 +103,9 @@ There is a simple monitoring system in AWS EB. You can see the request number pe
 
 You can also setup alarm based on the monitoring charts.
 
-## The potential problems or issues:
+## The potential problems or issues
+
+We don't like surprise.
 
 ### No Persistent Storage
 
@@ -113,7 +117,7 @@ Have to think about storing the files user uploaded on S3.
 
 AWS charges cross region traffic, you will see this unexpected cost if you are running the application cross regions.
 
-### The problems AWS EB can not sort out for you, but maybe you expect
+### The problems AWS EB can not sort out, but maybe you expect
 
 AWS EB can't help with the application layer such as application performance, frontend performance, cost efficiency.
 

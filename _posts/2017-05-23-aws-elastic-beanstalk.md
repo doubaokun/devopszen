@@ -19,11 +19,11 @@ AWS Elastic Beanstalk helps people not familiar with VPC, CF and ELB, ASG, Multi
 
 For short, it provides a managed environment and the essential components for your web applications such as Wordpress, Drupal, etc.
 
-If you have the scaling issues, then Elastic Beanstalk can be a quick solution.
+If you have the scaling issues, then [Elastic Beanstalk](https://www.devopszen.com/aws-elastic-beanstalk) can be a quick solution.
 
-##The cost of moving to Elastic Beanstalk
+## The cost of moving to Elastic Beanstalk
 
-###Have to integration with the AWS EB SDK:
+### Have to integration with the AWS EB SDK:
 
 Elastic Beanstalk provides the integration SDK for most common languages such as PHP, Java, Python, Ruby, Go, .NET, Node.js;
 If you use web containers such as Tomcat, Passenger, IIS, you can also easily integrate with Elastic Beanstalk;
@@ -35,11 +35,11 @@ The good thing is you only have to think about the application layers once migra
 
 The bad is all of these are provided in one box, it is difficult to define your own stack or optimise it. It is possible to create your own machine images AMI with packer, but AWS EB itself has the learning curve and everything are rely on the AWS platform. 
 
-###Have to split static files and source codes:
+### Have to split static files and source codes:
 
 It is very common to see developers adding more and more static files into the code base, especially if the application is a CMS or publishing system. When migrating to AWS EB, have to keep the code base as small as possible and store other files on S3 or other storage. Because the lifecycle of static files and source code bundle are different.
 
-##AWS EB management:
+## AWS EB management:
 
 You can manage AWS EB with the web interface or with CLI:
 
@@ -95,25 +95,25 @@ optional arguments:
   --version             show application/version info
 ```
 
-##Monitoring system
+## Monitoring system
 
 There is a simple monitoring system in AWS EB. You can see the request number per minute, CPU usage of the cluster, HTTP request latency, inbound outbound traffic.
 
 You can also setup alarm based on the monitoring charts.
 
-##The potential problems or issues:
+## The potential problems or issues:
 
-###No Persistent Storage
+### No Persistent Storage
 
 Just like other EC2 instance in ASG, each instance can be started up or shut down at any time based on load. Thus, the disk attached to the EC2 instance will also be destroyed when the instance shutting down.
 
 Have to think about storing the files user uploaded on S3.
 
-###Cross region traffic
+### Cross region traffic
 
 AWS charges cross region traffic, you will see this unexpected cost if you are running the application cross regions.
 
-###The problems AWS EB can not sort out for you, but maybe you expect
+### The problems AWS EB can not sort out for you, but maybe you expect
 
 AWS EB can't help with the application layer such as application performance, frontend performance, cost efficiency.
 
@@ -122,7 +122,7 @@ If you have performance issue then think about migrate to AWS EB, have to rethin
 And since AWS EB provide a stander solution, it is not tuned by default, you might see the cost growth compare with your legacy IDC.
 
 
-##References:
+## References:
 
 * https://www.packer.io/
 * http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts.platforms.html

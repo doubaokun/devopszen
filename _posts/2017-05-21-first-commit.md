@@ -1,9 +1,9 @@
 ---
 layout: post
-published: true
+published: false
 title: First commit
 mathjax: false
-featured: true
+featured: false
 comments: false
 headline: First commit
 categories: 

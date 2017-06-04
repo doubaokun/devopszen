@@ -12,16 +12,16 @@ var summer = (function ($) {
 
     // post animations on homepage
     indexPostAnimate = function () {
-        // if ($(indexPostClass).length) {
-        //     $(indexPostClass).each(function () {
-        //     var postPos = $(this).offset().top;
-        //     var topOfWindow = $(window).scrollTop(),
-        //         windowHeight = $(window).height();
-        //         if (postPos < topOfWindow + (windowHeight/ 1.4)) {
-        //             $(this).addClass('fadeInDown');
-        //         }
-        //     });
-        // }
+        if ($(indexPostClass).length) {
+            $(indexPostClass).each(function () {
+            var postPos = $(this).offset().top;
+            var topOfWindow = $(window).scrollTop(),
+                windowHeight = $(window).height();
+                if (postPos < topOfWindow + (windowHeight/ 1.4)) {
+                    $(this).addClass('fadeInDown');
+                }
+            });
+        }
     },
 
     mobileMenu = function () {
@@ -56,14 +56,14 @@ var summer = (function ($) {
 
     // summer javascripts initialization
     init = function () {
-        indexPostAnimate();
-        $(window).on('scroll', function() {
-            indexPostAnimate();
-        });
-        postHeaderCoverImg();
+        //indexPostAnimate();
+        //$(window).on('scroll', function() {
+        //    indexPostAnimate();
+        //});
+        //postHeaderCoverImg();
         mobileMenu();
-        headerTitlesBackgroundCheck();
-        $('p:has(> img)').addClass('with-image');
+        //headerTitlesBackgroundCheck();
+        //$('p:has(> img)').addClass('with-image');
     };
 
     return {

@@ -4,7 +4,6 @@ published: true
 title: The good and bad about Elastic Beanstalk
 mathjax: false
 featured: true
-imagefeature: photo1.jpeg
 comments: false
 headline: The thinking about AWS Elastic Beanstalk
 categories: 

@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Open source and free small files storage choices in the cloud data center
+title: Open source and free small files storage choices
 mathjax: false
 featured: true
 comments: false
@@ -10,6 +10,7 @@ categories:
   - storage
 tags: devops, disk, storage, ceph, glusterfs, s3
 ---
+
 
 The requirement of storage system for small files are:
 

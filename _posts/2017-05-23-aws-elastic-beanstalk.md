@@ -8,7 +8,7 @@ comments: false
 headline: The thinking about AWS Elastic Beanstalk
 categories: 
   - AWS
-tags: devops, aws, container
+tags: devops, AWS, container
 ---
 
 At [DevOps Zen](https://www.devopszen.com/), we are always working on the infrastructure migration, application performance optimisation, IT cost reduction for small and medium internet companies. We see some companies use Elastic Beanstalk managing their AWS production stack. This article explains a little bit about AWS Elastic Beanstalk.

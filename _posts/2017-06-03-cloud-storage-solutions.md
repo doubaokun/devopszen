@@ -8,7 +8,7 @@ comments: false
 headline: Open source and free small files storage choices in the cloud data center
 categories: 
   - storage
-tags: devops, disk, storage, ceph, glusterfs, s3
+tags: devops disk storage ceph glusterfs s3
 ---
 
 

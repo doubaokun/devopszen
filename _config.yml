@@ -14,7 +14,7 @@ owner:
   avatar:         me.jpg
   #email:          doubaokun@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Talk about DevOps, Infrastructure, Performance, OpenSource
+  description:    Talk about DevOps, Infrastructure, Performance, OpenSource, AWS cost reduction, Infrastructure & servers migration
   # Social networking links used in footer. Update and remove as you like.
   twitter:        doubaokun
   #facebook:       
@@ -36,8 +36,10 @@ links:
     url: /
     external: false
     icon: home
-  - title: Featured
-    url: /featured
+  # - title: Featured
+  #   url: /featured
+  - title: Services
+    url: /service
   - title: Categories
     url: /categories
   - title: About

@@ -13,7 +13,7 @@ tags: devops database aws rds mysql
 
 Technical stack design and chosen is very important for initial stage start-ups. If we can do it right, the future issues could be avoided. There are many factors to build a scalable, cost efficient, high-performance system, but we will discuss a lot bit of the database vendor choices.
 
-![AWS RDS vs MySQL](https://www.devopszen.com/images/blog/mysql-vs-rds.png "AWS RDS vs MySQL")
+<p style="text-align: center;"><img src="https://www.devopszen.com/images/blog/mysql-vs-rds.png" alt="AWS RDS vs MySQL"/></p>
 
 ### MySQL vs MongoDB
 
@@ -48,15 +48,12 @@ It provides the features such as:
 
 Compare the price of the RDS with the same CPU/disk EC2 instance (db.m4.large vs m4.large):
 
-                | db.m4.large   | m4.large       | Multi-az RDS
---------------- | ------------- | -------------- | ---------------
-Memory          | 8 GB          | 8 GB           | 8 GB 
---------------- | ------------- | -------------- | ---------------
-CPU             | 2 vCPUs       | 2 vCPUs        | 2 vCPUs
---------------- | ------------- | -------------- | ---------------
-Storage         | -             | -              | -
---------------- | ------------- | -------------- | ---------------
-Price           | $148.190      | $84.680        | $296.380
+Aspect          | m4.large (EC2)| db.m4.large (RDS)| Multi-az RDS    |
+--------------- | ------------- | ---------------- | --------------- |
+Memory          | 8 GB          | 8 GB             | 8 GB            |
+CPU             | 2 vCPUs       | 2 vCPUs          | 2 vCPUs         |
+Storage         | -             | -                | -               |
+Price           | $84.680       | $148.190         | $296.380        |
 
 You can see the on-demand price of RDS is roughly double the price of self-managed MySQL on the similar EC2 instance; the price of multi-az RDS doubles the single instance RDS.
 

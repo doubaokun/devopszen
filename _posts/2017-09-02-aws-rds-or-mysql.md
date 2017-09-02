@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Choose AWS RDS or self managed MySQL
+title: AWS RDS or self-managed MySQL
 mathjax: false
 featured: true
 comments: false

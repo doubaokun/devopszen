@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Why we switched from AWS Lightsail to EC2 for Gitlab
-imagefeature: https://www.devopszen.com/images/blog/aws-lightsail-create-gitlab.png
+imagefeature: blog/aws-lightsail-create-gitlab.png
 mathjax: false
 featured: true
 comments: false

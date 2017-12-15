@@ -6,7 +6,7 @@ imagefeature: blog/mysql-vs-rds.png
 mathjax: false
 featured: true
 comments: false
-headline: Should I choose self managed MySQL or AWS RDS (MySQL)
+description: Should I choose self managed MySQL or AWS RDS (MySQL)
 categories: 
   - database
 tags: devops database aws rds mysql

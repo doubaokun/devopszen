@@ -6,7 +6,7 @@ imagefeature: blog/aws-lightsail-create-gitlab.png
 mathjax: false
 featured: true
 comments: false
-headline: AWS Lightsail vs AWS EC2
+description: AWS Lightsail vs AWS EC2
 categories: 
   - aws
 tags: ec2 aws lightsail vpc

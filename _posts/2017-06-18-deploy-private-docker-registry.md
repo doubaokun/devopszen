@@ -6,7 +6,7 @@ imagefeature: blog/docker-registry.png
 mathjax: false
 featured: true
 comments: false
-headline: Deploy your own private docker registry (distribution)
+description: Deploy your own private docker registry (distribution)
 categories: 
   - devops
 tags: devops docker aws gcp Kubernetes

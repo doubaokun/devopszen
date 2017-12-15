@@ -6,7 +6,7 @@ imagefeature: blog/iptraf-dstat1.gif
 mathjax: false
 featured: false
 comments: false
-headline: Network Monitoring Tools and Commands
+description: Network Monitoring Tools and Commands
 categories: 
   - devops
 tags: devops network iptrap iftop bmon nload ifstat

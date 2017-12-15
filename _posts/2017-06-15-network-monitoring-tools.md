@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Network Monitoring Tools and Commands
+imagefeature: blog/iptraf-dstat1.gif
 mathjax: false
 featured: false
 comments: false

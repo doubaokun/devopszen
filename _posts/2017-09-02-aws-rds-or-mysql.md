@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: AWS RDS or self-managed MySQL
+imagefeature: blog/mysql-vs-rds.png
 mathjax: false
 featured: true
 comments: false

@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Deploy your own private docker registry 2017
+imagefeature: blog/docker-registry.png
 mathjax: false
 featured: true
 comments: false

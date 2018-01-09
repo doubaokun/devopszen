@@ -10,6 +10,7 @@ description: AWS Lightsail vs AWS EC2
 categories: 
   - aws
 tags: ec2 aws lightsail vpc
+canonical: https://www.transfon.com/blog/Lightsail-vs-EC2-Gitlab
 ---
 
 Gitlab can do Continuous Integration, Continuous Delivery, and Continuous Deployment within the same web interface. You can host Gitlab CE yourself on your own servers or in a container or on the cloud providers for free.

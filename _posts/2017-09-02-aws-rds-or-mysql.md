@@ -10,6 +10,7 @@ description: Should I choose self managed MySQL or AWS RDS (MySQL)
 categories: 
   - database
 tags: devops database aws rds mysql
+canonical: https://www.transfon.com/blog/aws-rds-vs-self-managed-mysql
 ---
 
 Technical stack design and chosen is very important for initial stage start-ups. If we can do it right, the future issues could be avoided. There are many factors to build a scalable, cost efficient, high-performance system, but we will discuss a lot bit of the database vendor choices.

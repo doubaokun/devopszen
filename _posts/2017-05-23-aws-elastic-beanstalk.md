@@ -125,6 +125,7 @@ If you have performance issue then think about migrate to AWS EB, have to rethin
 
 And since AWS EB provide a stander solution, it is not tuned by default, you might see the cost growth compare with your legacy IDC.
 
+[Transfon](https://www.transfon.com/) migrated a large website from Elastic beanstalk to a managed system and reduced hosting cost by 50%.
 
 ## References:
 

@@ -16,6 +16,8 @@ Gitlab can do Continuous Integration, Continuous Delivery, and Continuous Deploy
 
 AWS Lightsail is a new product from AWS, it as simple as digitalocean or linode, one click to setup Gitlab CE.
 
+If you have a large website and looking for managed cloud service please check: <a href="https://www.transfon.com/services/managed-service">Transfon managed cloud service</a>.
+
 <p style="text-align: center;"><img src="https://www.devopszen.com/images/blog/aws-lightsail-create-gitlab.png" alt="AWS Lightsail - Gitlab"/></p>
 
 AWS Lightsail provides the fixed public IP which can be binded on a Lightsail instance. So when you modify the Lightsail instance the public IP will not change and you don't have to modify the DNS records which is good.

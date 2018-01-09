@@ -63,3 +63,4 @@ You can see the on-demand price of RDS is roughly double the price of self-manag
 * If the database is running for critical business, you can choose multi-AZ RDS;
 * If you have inhouse expert DBA, and system expert you can choose self-managed MySQL on EC2 instance;
 * For average usage, We would recommend single instance AWS RDS.
+* If you like to find someone to manage the cost efficient system for you, the please check: <a href="https://www.transfon.com/services/managed-service">Managed AWS service</a>

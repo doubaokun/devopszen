@@ -101,4 +101,5 @@ AWS fully managed docker container registry also only charge the storage and dat
 * [https://github.com/docker/docker.github.io/blob/master/registry/deploying.md](https://github.com/docker/docker.github.io/blob/master/registry/deploying.md)
 * [https://docs.docker.com/registry/garbage-collection/#how-garbage-collection-works](https://docs.docker.com/registry/garbage-collection/#how-garbage-collection-works)
 * [https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-docker-registry-on-ubuntu-14-04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-docker-registry-on-ubuntu-14-04)
+* [Managed Kubernetes service](https://www.transfon.com/services/managed-service)
 
